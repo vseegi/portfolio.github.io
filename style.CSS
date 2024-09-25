@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial,sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+header{
+    background-color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+.logo{
+    font-size: 24px;
+    color: #4EB3F7;
+    display: inline-block;
+    font-weight: bold;
+}
+nav ul{
+    list-style: none;
+    margin-top:10px ;
+}
+nav ul li{
+    display: inline;
+    margin-right: 15px;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+}
+nav ul li a:hover{
+    color: #4EB3F7;
+}
+.hero{
+    background-color: #023e8a;
+    color: white;
+    padding: 200px 200px;
+    text-align: center;
+}
+.hero-content h2{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.hero-content p{
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+.cta-buttons .btn-primary,.cta-buttons .btn-secondary{
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    text-decoration: none;
+}
+.btn-primary{
+    background-color: #0096c7;
+    color: white;
+}
+.btn-secondary{
+    background-color: #ffffff;
+    color: #023e8a;
+}
+.cta-buttons a:hover{
+    opacity: 0.8;
+}
